@@ -1,0 +1,11 @@
+#include<stdio.h>
+void main()
+{
+int i=5,j=4,tmp;
+printf("enter before swapping i=%d j=%d");
+tmp=i&j;
+i=j&tmp;
+j=tmp&i;
+printf("after swapping i=%d j=%d");
+}
+
