@@ -1,0 +1,10 @@
+#include <stdio.h>
+//Macro to swap nibbles
+#define SWAP_NIBBLES(data) ((data & 0x0F)<<4 | (data & 0xF0)>>4)
+int main()
+{
+    unsigned char value = 0x23; //value in hex
+    printf("0x%x", SWAP_NIBBLES(value)); //print after swapping
+    return 0;
+}
+ 
