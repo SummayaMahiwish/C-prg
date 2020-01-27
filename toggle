@@ -2,12 +2,7 @@
 
 int main(){
     //declaring & initializing an 1 byte number
-    /*
-        num (hex) = 0xAA
-        its binary = 1010 1010
-        its decimal value = 170
-    */
-    unsigned char num = 0xAA; 
+     unsigned char num = 0xAA; 
     printf("num = %02X\n", num);
 //toggling bit 4th bit
     num ^= (1<<4);
