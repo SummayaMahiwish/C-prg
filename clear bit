@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(){
+    //declaring & initializing an 1 byte number
+    /*
+        num (hex) = 0xAA
+        its binary = 1010 1010
+        its decimal value = 170
+    */
+    unsigned char num = 0xAA; 
+    printf("num = %02X\n", num);
+    //clearing 3rd bit 
+    num &= ~(1<<3);
+    //now value will be: 1010 0110 = 0xA6 (HEX) = 166 (DEC)
+    printf("num = %02X\n", num);    
+    return 0;    
+		}
