@@ -1,0 +1,30 @@
+/*passing string as function to find string is palindrome or not*/
+#include<stdio.h>
+#include<string.h>
+int palindrome_str(char s[])   //racecar
+{
+int i,j,len=0;
+while(s[len)!='\0')
+{
+len++; //7
+}
+for(i=0;j=len-1;i<j;i++,j--)
+{
+if(s[i]!=s[j])
+return 0;
+}
+return 1;
+}
+main()
+{
+char s[30];
+int k;
+printf("enter string");
+gets(s);
+k=palindrome_str(s);
+if(k==0)
+printf("palindrome string");
+else 
+printf("not palindrome string");
+}
+
