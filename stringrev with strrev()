@@ -6,5 +6,6 @@ char s[100];
 printf("enter string");
 gets(s);
 strrev(s);
-printf("reverse of string%d",s);
+printf("reverse of string");
+gets(r);
 }
