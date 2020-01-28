@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-int arr[8]={3,4,5,6,3,4,4,5},freq[8];
+int arr[8]={3,4,5,6,3,4,4,5},freq[8]={3,4,5,6,3,4,4,5};
 int i,j,count;
 for(i=0;i<8;i++)
 {
