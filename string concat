@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include <string.h>
+
+int main() {
+   char name[50],sname[15],space[]=" ";
+   scanf("%s",&name);
+   printf("%s\n",name);
+   scanf("%s",&sname);
+   printf("%s\n",sname);
+   strcat(name,space);
+   strcat(name,sname);
+   printf("%s\n",name);
+   return 0;
+}
