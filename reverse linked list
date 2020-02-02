@@ -1,0 +1,48 @@
+#include<stdio.h>
+struct sll
+{
+  int info;
+  struct sll*nxt;
+}*start;
+void creation(int data)
+{
+struct sll *new,*tmp;
+new=(struct sll *)malloc(sizeof(struct sll);
+printf("enter data");
+scanf("%d",&new->info);
+new->nxt=NULL;
+  if(start==NULL)
+  start=new;
+  else
+  tmp=start;
+    while(tmp->nxt!=NULL)
+    tmp=tmp->nxt;
+    tmp->nxt=new;
+}
+void traverse()
+{
+struct sll *q;
+q=start;
+  if(q==NULL);
+  {
+  printf("list empty");
+  exit(0);
+  }
+    while(q!=NULL)
+    {
+    printf("%d%d%d",q->info,q,q->nxt);
+    q=q->nxt;
+    }
+  }
+  struct reverse(struct sll *p)
+  {
+    struct sll *q,*r;
+    q=NULL;
+    while(p)
+    {
+      r=p->nxt;
+      p->nxt=q;
+      p=r;
+     }
+     return q;
+   }
