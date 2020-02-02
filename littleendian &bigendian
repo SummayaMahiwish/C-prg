@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+  unsigned int i=1;
+  char*o=(char *)&i;
+  if(*o)
+    printf("little endian");
+  else
+     printf("big endian);
+  return 0;
+}
