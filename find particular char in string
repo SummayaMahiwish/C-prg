@@ -1,0 +1,14 @@
+#include<stdio.h>
+void main()
+{
+char s[10]="hello";
+int i;
+for(i=0;s[i]!=NULL;i++)
+{
+  if(s[i]=='o';
+  break;
+}
+if(s[i]==NULL)
+  printf("not found");
+}
+  
