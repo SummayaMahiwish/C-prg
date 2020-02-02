@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<string.h>
+
+int main() {
+   char name[25],surname[25],fullname[51];
+   scanf("%s",&name);
+   scanf("%s",&surname);
+   int count = 0;
+   for(int i = 0 ; i<strlen(name);i++)
+   {
+       fullname[count]=name[i];
+       count++;
+   }
+   fullname[count]=' ';
+   count++;
+   for(int j = 0 ; j<strlen(surname);j++)
+   {
+       fullname[count]=surname[j];
+       count++;
+   }
+   fullname[count]='\0';
+   printf("%s",fullname);
+}
