@@ -1,0 +1,13 @@
+#include<stdio.>
+void main()
+{
+int a,b,p,t;
+printf("enter num");
+scanf("%d%d",&a,&b);
+p=0;
+t=b;
+while(b)
+{
+  p=p+a;
+  b--;
+}
