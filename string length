@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+    char str[100];
+	scanf("%[^\n]s",&str);//read string with spaces
+    
+    int length=0;
+    while(str[length]!='\0')
+    {
+       length++;
+    }
+    
+    printf("Length of String is %d.",length);
+ 
+ 
+    printf("\n");
+    return 0;
+}
