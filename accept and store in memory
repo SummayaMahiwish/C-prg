@@ -1,0 +1,13 @@
+#include<stdio.h>
+void main()
+{
+char str[2][5];
+puts(str[0]);   //gv
+puts(str[1]);   //gv
+strcpy(str[0],"hello");
+puts(str[0]);   //hello
+puts(str[1]);   //no output
+strcpy(str[0],"world");
+puts(str[0]);   //helloworld
+puts(str[1]);  //world
+}
