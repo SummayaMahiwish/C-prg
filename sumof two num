@@ -1,0 +1,15 @@
+#include<stdio.h>
+long sum(int a,int b);
+void main()
+{
+	int a,int b,n;
+	printf("enter value");
+	scanf("%d%d",&a,&b);
+	n=sum(a,b);
+	printf("sum for %d is %d%d\n",a,b,n);
+}
+long sum(a,b)
+{
+	int sum1,tmp;
+	return (a-~b-1);
+}
