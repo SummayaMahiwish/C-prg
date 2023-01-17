@@ -1,8 +1,0 @@
-#include<stdio.h>
-void main()
-{
-int i;
-char a[5]="hello";
-for(i=0;a[i]!='\0';i++)
-printf("%d",i);
-}

@@ -1,7 +1,0 @@
-#include<stdio.h>
-void main()
-{
-  char s[50]="hellohyderabad1234";
-  strrev(s+5);
-  puts(s);    //hello4321dabaredyh
-}
