@@ -71,5 +71,6 @@
         </plugin>
       </plugins>
     </pluginManagement>
+    <finalName>mavenproject</finalName>
   </build>
 </project>
